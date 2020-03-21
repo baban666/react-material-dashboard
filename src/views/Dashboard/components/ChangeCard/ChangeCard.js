@@ -20,7 +20,7 @@ const INITIAL_CARDS_STATE = [
     id: 2,
     title: 'and it\'s awesome!',
     text: 'So, what are you waiting for? 🚀',
-    url: 'https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80',
+    url: 'https://assets.imgix.net/unsplash/moon.jpg?fit=crop&crop=entropy&w=688&h=516&ixlib=imgixjs-3.4.1',
   },
   {
     id: 3,
@@ -33,6 +33,12 @@ const INITIAL_CARDS_STATE = [
     title: 'and it\'s awesome!',
     text: 'So, what are you waiting for? 🚀',
     url: 'https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80',
+  },
+  {
+    id: 5,
+    title: 'and it\'s awesome!',
+    text: 'So, what are you waiting for? 🚀',
+    url: 'https://assets.imgix.net/unsplash/astronaut.jpg?w=688&h=387&fit=crop&crop=middle&ixlib=imgixjs-3.4.1',
   },
 ];
 

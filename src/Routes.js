@@ -14,7 +14,8 @@ import {
   Settings as SettingsView,
   SignUp as SignUpView,
   SignIn as SignInView,
-  NotFound as NotFoundView
+  NotFound as NotFoundView,
+  Films as Films
 } from './views';
 
 const Routes = () => {
@@ -84,6 +85,12 @@ const Routes = () => {
         exact
         layout={MinimalLayout}
         path="/not-found"
+      />
+      <RouteWithLayout
+        component={Films}
+        exact
+        layout={MinimalLayout}
+        path="/movies"
       />
       <Redirect to="/not-found" />
     </Switch>
