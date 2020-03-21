@@ -15,7 +15,7 @@ import {
   SignUp as SignUpView,
   SignIn as SignInView,
   NotFound as NotFoundView,
-  Films as Films
+  Films
 } from './views';
 
 const Routes = () => {
